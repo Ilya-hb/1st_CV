@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #cbd7b5;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  position: relative;
+}
+
+div img {
+  width: 100%;
+  height: auto;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+h1,
+h2,
+h3 {
+  color: #b5dad1;
+}
+
+a {
+  color: #cbd7b5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #9aa389;
+}
+
+.avatar-container {
+  width: 300px;
+}
+
+.avatar {
+  border-radius: 20px;
+  box-shadow: 0px 0px 14px #000000;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content {
+  max-width: 40%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+  .head {
+    display: block;
+    text-align: center;
+  }
+
+  .avatar {
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px #000000;
+  }
+
+  body {
+    font-size: 15;
+  }
+}
+
+.head {
+  display: flex;
+}
+
+.head-text {
+  margin-left: 40px;
+}
+
+.head-text h1 {
+  margin-bottom: 10px;
+}
+
+.head,
+.social,
+.exp,
+.hobby,
+.contact {
+  background-color: #18361f;
+  padding: 10px;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  margin: 20px;
+
+}
+
+.social-ul li {
+  color: white;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content-table {
+  background-color: #18361f;
+  padding: 10px;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  margin: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+
+  border-bottom: 2px solid #b5dad1;
+  padding: 15px 0px 10px;
+  outline: none;
+
+  font-family: inherit;
+  color: inherit;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row>.form-group {
+  width: 50%;
+}
+
+.row>.form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 15px 20px;
+
+  background: #000000;
+  color: white;
+  border: none;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.txtarea {
+  resize: none;
+}
