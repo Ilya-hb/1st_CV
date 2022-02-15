@@ -1,111 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/stylesheet.css" />
-    <title>CV</title>
-  </head>
 
-  <body>
-    <canvas id="Matrix"></canvas>
-    <script src="js/matrix.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/stylesheet.css" />
+  <title>CV</title>
+</head>
 
-    <div class="content">
-      <div class="head">
-        <div class="avatar-container">
-          <img src="media/Me.jpg" alt="Моя фотография" class="avatar" />
-        </div>
+<body>
+  <canvas id="Matrix"></canvas>
+  <script src="js/matrix.js"></script>
 
-        <div class="head-text">
-          <h1>Голубан Илья</h1>
-          <p>Я студент 3 курса, изучаю программирование</p>
-          <p>
-            <em>
-              Люблю спорт, программирование, компьютерные игры и просмотр
-              фильмов
-            </em>
-          </p>
-        </div>
+  <div class="content">
+    <div class="head">
+      <div class="avatar-container">
+        <img src="media/Me.jpg" alt="Моя фотография" class="avatar" />
       </div>
 
-      <div class="social">
-        <h3>Мои социальные сети</h3>
-        <ul class="social-ul">
-          <li>
-            <a href="https://www.instagram.com/ily_holu/" target="_blank">
-              Instagram
-            </a>
-          </li>
-          <li>
-            <a href="https://t.me/ilyholu" target="_blank"> Telegram </a>
-          </li>
-          <li>
-            <a href="https://github.com/Ilya-hb" target="_blank"> Github </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/ilya-hol-392007226/"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-          </li>
-        </ul>
+      <div class="head-text">
+        <h1>Голубан Илья</h1>
+        <p>Я студент 3 курса, изучаю программирование</p>
+        <p>
+          <em>
+            Люблю спорт, программирование, компьютерные игры и просмотр
+            фильмов
+          </em>
+        </p>
       </div>
+    </div>
 
-      <div class="hobby">
-        <h3>Мои хобби</h3>
-        <ol>
-          <li>Боевые искусства</li>
-          <li>Разработка ПО</li>
-          <li>Вождение авто</li>
-        </ol>
-      </div>
-      <div class="exp">
-        <h3>Опыт работы</h3>
-        <ul class="exp-ul">
-          <li>Java, C++, Python</li>
-          <li>Javascript, Selenium, JavaFX</li>
-          <li>VS, VS code, Intellij Idea, Aseprite, Unity</li>
-        </ul>
+    <div class="social">
+      <h3>Мои социальные сети</h3>
+      <ul class="social-ul">
+        <li>
+          <a href="https://www.instagram.com/ily_holu/" target="_blank">
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/ilyholu" target="_blank"> Telegram </a>
+        </li>
+        <li>
+          <a href="https://github.com/Ilya-hb" target="_blank"> Github </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ilya-hol-392007226/" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </div>
 
-        <h3>Мои проекты</h3>
-        <a href="index1.html">Тык</a>
-      </div>
+    <div class="hobby">
+      <h3>Мои хобби</h3>
+      <ol>
+        <li>Боевые искусства</li>
+        <li>Разработка ПО</li>
+        <li>Вождение авто</li>
+      </ol>
+    </div>
+    <div class="exp">
+      <h3>Опыт работы</h3>
+      <ul class="exp-ul">
+        <li>Java, C++, Python</li>
+        <li>Javascript, Selenium, JavaFX</li>
+        <li>VS, VS code, Intellij Idea, Aseprite, Unity</li>
+      </ul>
 
-      <div class="contact">
-        <h2>Напишите мне</h2>
-        <form action="https://formspree.io/f/xvolakqg" method="POST">
-          <div class="row">
-            <div class="form-group">
-              <label for="name">Ваше имя</label>
-              <input type="text" name="name" id="name" required />
-            </div>
+      <h3>Мои проекты</h3>
+      <a href="index1.html">Тык</a>
+    </div>
 
-            <div class="form-group">
-              <label for="email">Ваш email</label>
-              <input type="email" name="email" id="email" required />
-            </div>
+    <div class="contact">
+      <h2>Напишите мне</h2>
+      <form action="https://formspree.io/f/xvolakqg" method="POST">
+        <div class="row">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input type="text" name="name" id="name" required />
           </div>
 
           <div class="form-group">
-            <label for="textarea">Ваше сообщение:</label>
-            <textarea
-              id="textarea"
-              name="textarea"
-              class="txtarea"
-              placeholder="Введите текст..."
-              rows="2"
-              cols="15"
-              required
-            ></textarea>
+            <label for="email">Ваш email</label>
+            <input type="email" name="email" id="email" required />
           </div>
+        </div>
 
-          <input type="submit" class="btn" value="Отправить!" />
-        </form>
-      </div>
+        <div class="form-group">
+          <label for="textarea">Ваше сообщение:</label>
+          <textarea id="textarea" name="textarea" class="txtarea" placeholder="Введите текст..." rows="2" cols="15"
+            required></textarea>
+        </div>
+
+        <input type="submit" class="btn" />
+      </form>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
