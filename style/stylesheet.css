@@ -185,6 +185,12 @@ a:active {
   transform: translate(-50%, 0);
 }
 
+.btn:hover {
+  background-color: white;
+  color: black;
+
+}
+
 .txtarea {
   resize: none;
 }
